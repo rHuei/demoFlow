@@ -463,5 +463,45 @@
                 "file": "/atomic/node_modules/node-red-node-tail/28-tail.js"
             }
         }
+    },
+    "node-red-contrib-queue-gate": {
+        "name": "node-red-contrib-queue-gate",
+        "version": "1.5.5",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "q-gate": {
+                "name": "q-gate",
+                "types": [
+                    "q-gate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-queue-gate",
+                "file": "/data/atomic/node_modules/node-red-contrib-queue-gate/q-gate.js"
+            }
+        }
+    },
+    "node-red-node-mongodb": {
+        "name": "node-red-node-mongodb",
+        "version": "0.2.5",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mongo": {
+                "name": "mongo",
+                "types": [
+                    "mongodb",
+                    "mongodb out",
+                    "mongodb in"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-mongodb",
+                "file": "/data/atomic/node_modules/node-red-node-mongodb/66-mongodb.js"
+            }
+        }
     }
 }
