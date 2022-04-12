@@ -503,5 +503,24 @@
                 "file": "/data/atomic/node_modules/node-red-node-mongodb/66-mongodb.js"
             }
         }
+    },
+    "node-red-contrib-handlebars": {
+        "name": "node-red-contrib-handlebars",
+        "version": "1.1.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "handlebars": {
+                "name": "handlebars",
+                "types": [
+                    "handlebars"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-handlebars",
+                "file": "/data/atomic/node_modules/node-red-contrib-handlebars/nodes/handlebars/handlebars.js"
+            }
+        }
     }
 }
